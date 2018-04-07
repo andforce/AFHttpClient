@@ -11,7 +11,7 @@
 		3AAB45882078C42D00D6D958 /* AFHttpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB45872078C42D00D6D958 /* AFHttpClientTests.m */; };
 		3AAB458A2078C42D00D6D958 /* AFHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB457C2078C42C00D6D958 /* AFHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AAB45952078C5BA00D6D958 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAB45942078C5BA00D6D958 /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		3AAB45982078CB1E00D6D958 /* HttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB45962078CB1E00D6D958 /* HttpClient.h */; };
+		3AAB45982078CB1E00D6D958 /* HttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB45962078CB1E00D6D958 /* HttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AAB45992078CB1E00D6D958 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB45972078CB1E00D6D958 /* HttpClient.m */; };
 /* End PBXBuildFile section */
 
