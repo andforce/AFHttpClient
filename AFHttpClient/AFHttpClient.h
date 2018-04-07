@@ -19,6 +19,6 @@ FOUNDATION_EXPORT const unsigned char AFHttpClientVersionString[];
 #ifndef _AFHTTPCLIENT_
     #define _AFHTTPCLIENT_
 
-    #import "AFHttpClient.h"
+    #import "HttpClient.h"
 
 #endif /* _AFHTTPCLIENT_ */
