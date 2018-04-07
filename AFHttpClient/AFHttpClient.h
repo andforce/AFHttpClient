@@ -16,9 +16,21 @@ FOUNDATION_EXPORT const unsigned char AFHttpClientVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AFHttpClient/PublicHeader.h>
 
-#ifndef _AFHTTPCLIENT_
-    #define _AFHTTPCLIENT_
+//#ifndef _AFHTTPCLIENT_
+//    #define _AFHTTPCLIENT_
+//
+//    #import "HttpClient.h"
+//
+//#endif /* _AFHTTPCLIENT_ */
 
-    #import "HttpClient.h"
+typedef void(^SuccessHandler)(NSData *data);
 
-#endif /* _AFHTTPCLIENT_ */
+typedef void(^FailureHandler)(NSError *error);
+
+@interface AFHttpClient : NSObject
+
+- (void)GET:(NSString *)url parameters:(NSDictionary *)parameters success:(SuccessHandler)success failure:(FailureHandler)failure;
+
+- (void)POST:(NSString *)url parameters:(NSDictionary *)parameters success:(SuccessHandler)success failure:(FailureHandler) failure;
+
+@end
