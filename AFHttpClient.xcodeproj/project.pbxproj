@@ -11,7 +11,8 @@
 		3AAB45882078C42D00D6D958 /* AFHttpClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB45872078C42D00D6D958 /* AFHttpClientTests.m */; };
 		3AAB458A2078C42D00D6D958 /* AFHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB457C2078C42C00D6D958 /* AFHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3AAB45952078C5BA00D6D958 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AAB45942078C5BA00D6D958 /* AFNetworking.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		3AAB45992078CB1E00D6D958 /* AFHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB45972078CB1E00D6D958 /* AFHttpClient.m */; };
+		3AAB45982078CB1E00D6D958 /* HttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAB45962078CB1E00D6D958 /* HttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAB45992078CB1E00D6D958 /* HttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AAB45972078CB1E00D6D958 /* HttpClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +33,8 @@
 		3AAB45872078C42D00D6D958 /* AFHttpClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHttpClientTests.m; sourceTree = "<group>"; };
 		3AAB45892078C42D00D6D958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AAB45942078C5BA00D6D958 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Carthage/Build/iOS/AFNetworking.framework; sourceTree = "<group>"; };
-		3AAB45972078CB1E00D6D958 /* AFHttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHttpClient.m; sourceTree = "<group>"; };
+		3AAB45962078CB1E00D6D958 /* HttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpClient.h; sourceTree = "<group>"; };
+		3AAB45972078CB1E00D6D958 /* HttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +81,8 @@
 			children = (
 				3AAB457C2078C42C00D6D958 /* AFHttpClient.h */,
 				3AAB457D2078C42C00D6D958 /* Info.plist */,
-				3AAB45972078CB1E00D6D958 /* AFHttpClient.m */,
+				3AAB45962078CB1E00D6D958 /* HttpClient.h */,
+				3AAB45972078CB1E00D6D958 /* HttpClient.m */,
 			);
 			path = AFHttpClient;
 			sourceTree = "<group>";
@@ -109,6 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AAB458A2078C42D00D6D958 /* AFHttpClient.h in Headers */,
+				3AAB45982078CB1E00D6D958 /* HttpClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AAB45992078CB1E00D6D958 /* AFHttpClient.m in Sources */,
+				3AAB45992078CB1E00D6D958 /* HttpClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

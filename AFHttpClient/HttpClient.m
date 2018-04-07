@@ -6,10 +6,10 @@
 //  Copyright © 2018年 andforce. All rights reserved.
 //
 
-#import "AFHttpClient.h"
+#import "HttpClient.h"
 #import <AFNetworking/AFNetworking.h>
 
-@implementation AFHttpClient{
+@implementation HttpClient{
     AFHTTPSessionManager * _manager;
 }
 
